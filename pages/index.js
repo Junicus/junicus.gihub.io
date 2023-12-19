@@ -10,6 +10,11 @@ export default function Home() {
       </Head>
 
       <main>
+        {/* <!-- If you would like to customize the button, remove or change the "class" attribute inside the <span> tag --> */}
+
+        <span class="glf-button" data-glf-cuid="92b10f2c-61da-4a6a-8a92-713d71739f4d" data-glf-ruid="b37c9d68-6364-480f-8cef-fe338a6526bb" >See MENU & Order</span>
+        <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
+
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
